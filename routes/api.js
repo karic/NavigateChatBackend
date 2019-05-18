@@ -14,7 +14,7 @@ router.get('/locations', function(req,res,next){
       "longitude": 18.374295023093808,
       "speed": -1,
     },
-    "timestamp": 1558180986026.164,
+    "timestamp": 1358180986026.164,
   },
   {
     "coords": {
@@ -38,7 +38,7 @@ router.get('/locations', function(req,res,next){
       "longitude": 18.375295023093808,
       "speed": -1,
     },
-    "timestamp": 1558180986026.164,
+    "timestamp": 1458180986026.164,
   }
 
   
