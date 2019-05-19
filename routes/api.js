@@ -2,6 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 
+router.post('/updatelocation', function(req,res,next){
+
+  console.log(req.body);
+});
+
+
 router.get('/locations', function(req,res,next){
   res.send([
   {
