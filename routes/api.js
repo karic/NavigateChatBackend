@@ -3,8 +3,8 @@ var router = express.Router();
 
 
 router.post('/updatelocation', function(req,res,next){
-
   console.log(req.body);
+  res.send(req.body);
 });
 
 
